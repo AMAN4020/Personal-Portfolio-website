@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAN VERMA - web developer, programer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blogs</a></li>
+                    <li><a href="/contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="threeline.png" alt="" width="23">
+                <img class="cross" src="cross.png" alt="" width="23">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work/general enquries</h1>
+                <form action="/contact", method="post">
+                    <div class="mb-3">
+                        <label for="clientName" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientName" name="name"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail1" name="email"
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">
+                            We'll never share your email and phone no. with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone no.</label>
+                        <input type="phone" class="form-control" id="clientphone" name="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEnquire" class="form-label">Enquire</label>
+                        <textarea type="Enquire" class="form-control" id="clientEnquire" name="Enqurie"
+                            aria-describedby="emailHelp"></textarea>
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient" name="check">
+                        <label class="form-check-label" for="isclient">I want you to work on a project with me.</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
